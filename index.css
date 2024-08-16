@@ -1,0 +1,850 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Figtree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+            /* navigation */
+
+.navv{
+    background-color: #ffebe381;
+    padding: 10px 0px;
+     text-align: center;
+}
+.navroww{
+    display: flex;
+    margin: 0px;
+
+}
+.first{
+    padding: 10px 0px;
+   
+}
+.second{
+    padding: 10px 0px;
+   
+   
+}
+.third{
+    padding: 10px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+   
+}
+.fourth button{
+    background-color: black;
+    border: none;
+    font-size: 25px;
+    padding: 5px 5px;
+    color: white;
+}
+.fourth i{
+    padding: 0px;
+}
+.fourth{
+    padding: 10px 0px;
+    display: none;
+}
+.second ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.second ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+
+}
+
+.second ul li a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+}
+.black{
+    height: 30px;
+    width: 200px;
+    padding: 5px 0px;
+    background-color: black;
+    border-radius:20px;
+    color: white;
+    margin-right: 20px;
+}
+
+
+             /* section1 revolutionize */
+
+.box1{
+    padding: 20px 0px;
+    background-color: #ffebe381;
+    text-align: center ;
+}
+.box1 h1{
+    font-size: 80px;
+}
+
+.box2{
+    padding: 20px 0px;
+    background-color: #ffebe381;
+    text-align: center ;
+}
+
+
+
+
+
+
+
+
+       /* this is picture part */
+
+.box3{
+    background-color: #ffebe381;
+    display: flex;
+    justify-content: center;
+
+}   
+.phone{
+    background-image: url(image1phone.webp);
+    background-size: cover;
+    height: 800px;
+    padding: 20px 100px;
+    background-color: red;
+    border: 20PX solid black;
+    border-bottom: none;
+    border-radius: 70px 70px 0px 0px;
+    position: relative;
+}   
+
+.one{
+    padding: 10px 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: -180px;
+    border-radius: 10px;
+    
+}
+.one .fa-solid {
+font-size: 80px;
+color: blue;
+}
+.one svg{
+    height: 100px;
+    width: 100px;
+}
+.two{
+    padding: 50px 50px;
+    background-color: black;
+    position: absolute;
+   color:#ffebe381;
+    top: 300px;
+    right:-100px;
+    
+}
+.two svg{
+    height: 100px;
+    width: 100px;
+}
+
+.three{
+    padding: 30px 30px;
+    background-color: black;
+    position: absolute;
+   color:#ffebe381;
+    top: 350px;
+    left: -230px;
+    
+}
+.three .fa-solid {
+    font-size: 40px;
+    color: blue;
+    }
+
+    .three svg{
+    height: 100px;
+    width: 100px;
+}
+.four{
+    padding: 20px 30px;
+    background-color: black;
+    position: absolute;
+   color:#ffebe381;
+    bottom: 40px;
+    right: -200px;
+    
+    
+}
+.four svg{
+    height: 100px;
+    width: 100px;
+}
+
+
+/* section4 bluepart  */
+
+
+
+.box4{
+    padding: 100px 0px;
+    background-color: rgba(14, 14, 209, 0.767);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.box4 h1{
+    font-size: 70px;
+    padding: 60px 0px;
+}
+.video{
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    border: 20px solid black;
+    border-radius: 0px 50px 50px 0px;
+    border-left: none;
+    position: relative;
+}
+.video video{
+    object-fit: cover;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.videoup{
+    height: 100%;
+    width: 100%;
+    background-color:transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: end;
+    padding: 20px 20px;
+}
+
+
+
+         /* this is section 5  */
+
+
+
+
+
+
+.box5{
+    padding: 30px 90px;
+    background-color: black;
+    color: white;
+
+}  
+.box5 h1{
+    font-size: 80px;
+    
+}       
+
+.but{
+    padding: 10px 40px;
+    background-color: #ffebe381;
+    border-radius: 50px;
+    border: none;
+}
+.but:hover{
+    background-color:white;
+    color:black;
+}
+
+         /* this is section 6 */
+
+
+
+
+.box6{
+    padding: 50px 0px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}   
+.row6{
+    display: flex;
+    padding: 0PX;
+    margin: 0PX;
+} 
+.abc{
+    padding: 10px 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}   
+.mno{
+    padding: 10px 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}     
+.pqr{
+    padding: 10px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}     
+.xyz{
+    padding: 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}       
+
+       /* this is seventh section */
+
+
+
+
+.box7{
+    height: 750px;
+    padding: 50px 0px;
+    background-image: url(sevenbg.webp);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+} 
+.box7 h1{
+    font-size: 60px;
+}
+
+.box7 .pp{
+    padding-top: 250px ;
+    font-size: 30px;
+}
+
+        /* this is 8th section */
+
+.box8{
+    padding: 30px 0px;
+    background-color: #ffebe381;
+    text-align: center;
+}  
+.box8 h1{
+    font-size: 70px;
+}
+.box9{
+    padding: 10px 0px;
+    background-color: #ffebe381;
+    text-align: center;
+}         
+
+
+
+          /* this is bootstrap part */
+
+.bigbox{
+        height: 600px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+    }
+    .smallbox{
+        background-color: orange;
+        display: flex;
+    }
+   
+    .leftt{
+        background-color: gray;
+        padding: 20px 0px ;
+        display: flex;
+        align-items: end;
+      
+
+    }
+   .end{
+    padding: 50px 0px;
+    background-color:black;
+   }
+    .rightt{
+        background-color: green;
+        padding: 20px 0px ;
+
+
+    }
+    .up{
+        padding: 50px 0px;
+        background-color: red;
+        height: 350px;
+    }
+    .hell{
+        padding: 20px 0px;
+        display: flex;
+    }
+    .hello{
+        display: flex;
+    }
+    .onee{
+        padding: 50px 0px;
+        background-color: red;
+        height: 30%;
+    }
+    .twoo{
+        padding: 50px 0px;
+        background-color:black;
+        height: 30%;
+    }
+    .threee{
+        padding: 50px 0px;
+        background-color:orange;
+        height: 30%;
+    }
+    .fourr{
+        padding: 50px 0px;
+        background-color:black;
+        height: 30%;
+    }
+    
+    
+
+
+   
+
+
+            /* this is tenth  section  */
+
+
+
+
+.box10{
+    height: 600px;
+    background-color: red;
+    background-image: url(ten.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: last baseline;
+} 
+
+.tena{
+    background-color:#ffebe381;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.tena h1{
+    font-size: 50px;
+} 
+
+.tena p{
+    font-size: 25px;
+}
+
+
+
+           /* this is next part */
+
+
+
+.box11{
+padding: 100px 0px;
+background-color: cornsilk;
+text-align: center;
+}
+
+.input{
+    padding: 10px 0px;
+    width: 60%;
+    background-color: transparent;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.butt{
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.butt:hover{
+    background-color:white;
+    color: black;
+    transform: translateY(5px);
+    border: 1px solid black;
+}
+
+
+           /* sculpty */
+
+
+
+.box12{
+    padding: 40px 0px;
+    text-align: center;
+    background-color: #ffebe381;
+    
+}
+.box12 h1{
+    font-size: 300px;
+    font-weight: 100;
+}
+
+
+
+         /* this is footerpart */
+
+
+.footer{
+    padding: 20px 0px;
+    background-color: #ffebe381;
+}
+.footrow{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.add{
+    padding: 10px 0px;
+    text-align: center;
+}
+.add p{
+    font-size: 20px;
+    margin-top: 30px ;
+}
+.legal{
+    padding: 10px 0px;
+    text-align: center;
+}
+.legal p{
+    font-size: 20px;
+    margin-top: 30px ;
+}
+.social{
+    padding: 10px 0px;
+    text-align: center;
+}
+.social a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    margin-top: 30px ;
+}
+.social a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.log{
+    padding: 10px 0px;
+    text-align: center;
+}
+.im{
+    margin: 20px 0px;
+}
+
+
+
+     /* this is offcanvas part */
+
+
+.offcanvas-header h1{
+    font-size: 45px;
+}
+.offcanvas-header{
+    font-size: 25px;
+}
+
+.offcanvas-body ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 30px;
+    
+}
+
+
+
+
+.offcanvas-body  ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+
+}
+
+.offcanvas-body  ul li a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* this is responsive part */
+
+
+
+
+
+
+@media (max-width:982px) {
+    .box1 h1{
+        font-size: 45px;
+    }
+    .box4 h1{
+        font-size: 40px;
+    }
+    .box12 h1{
+        font-size: 100px;
+    }
+
+    .one{
+        padding: 10px 50px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: -130px;
+        border-radius: 10px;
+        
+    }
+.one .fa-solid {
+font-size: 40px;
+color: blue;
+}
+.one svg{
+    height: 50px;
+    width: 50px;
+}
+.two{
+    padding: 20px 30px;
+
+ 
+}
+.two svg{
+    height: 50px;
+    width: 50px;
+}
+
+.three{
+    padding: 20px 30px;
+    left: -130px;
+    
+}
+.three .fa-solid {
+    font-size: 20px;
+    color: blue;
+    }
+
+    .three svg{
+    height: 50px;
+    width: 50px;
+}
+.four{
+    padding: 20px 30px;
+    right: -150px;
+    
+    
+}
+.four svg{
+    height: 50px;
+    width: 50px;
+}
+.box5{
+    padding: 30px 0px;
+   text-align: center;
+
+} 
+.box8 h1{
+    font-size: 45px;
+}
+
+
+
+}
+
+
+@media (max-width:780px) {
+ 
+
+    .one{
+        padding: 10px 20px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: -60px;
+        border-radius: 10px;
+        
+    }
+.one .fa-solid {
+font-size: 30px;
+color: blue;
+}
+.one svg{
+    height: 30px;
+    width: 30px;
+}
+.two{
+    padding: 10px 20px;
+    right: -60px;
+
+ 
+}
+.two svg{
+    height: 30px;
+    width: 30px;
+}
+
+.three{
+    padding: 10px 20px;
+    left: -80px;
+    
+}
+.three .fa-solid {
+    font-size: 20px;
+    color: blue;
+    }
+
+    .three svg{
+    height: 30px;
+    width: 30px;
+}
+.four{
+    padding: 10px 20px;
+    right: -80px;
+    
+    
+}
+.four svg{
+    height: 30px;
+    width: 30px;
+}
+
+.phone{
+    height: 550px;
+    padding: 20px 80px;
+    border: 15PX solid black;
+   
+}   
+
+.fourth{
+    display: block;
+}
+
+}
+
+
+
+@media (max-width:580px) {
+ 
+
+    .one{
+        padding: 10px 20px;
+        left: -40px;
+        border-radius: 10px;
+        
+    }
+.one .fa-solid {
+font-size: 20px;
+}
+.one svg{
+    height: 30px;
+    width: 30px;
+}
+.two{
+    padding: 10px 10px;
+    top: 100px;
+    right: -34px;
+
+ 
+}
+.two svg{
+    height: 30px;
+    width: 30px;
+}
+
+.three{
+    padding: 10px 10px;
+    left: -30px;
+    
+}
+.three .fa-solid {
+    font-size: 20px;
+    }
+
+    .three svg{
+    height: 30px;
+    width: 30px;
+}
+.four{
+    padding: 10px 1%;
+    right: -20px;
+    
+    
+}
+.four svg{
+    height: 30px;
+    width: 30px;
+}
+
+.phone{
+    height: 520px;
+    padding: 20px 80px;
+    border: 10PX solid black;
+   
+}  
+
+.box1 h1{
+    font-size: 35px;
+}
+.box4 h1{
+    font-size: 25px;
+}
+.box12 h1{
+    font-size: 70px;
+}
+.video{
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    border: 10px solid black;
+    border-radius: 0px 50px 50px 0px;
+}
+.video video{
+    object-fit: cover;
+    border-radius: 0px 45px 45px 0px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:667px) {
+    .ull  li {
+        display: none;
+    }
+}
